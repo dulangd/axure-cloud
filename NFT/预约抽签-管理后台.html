@@ -1,0 +1,2813 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>预约抽签-管理后台</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.1, maximum-scale=10"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/预约抽签-管理后台/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/预约抽签-管理后台/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 删除提示 (组 合) -->
+      <div id="u19917" class="ax_default" data-label="删除提示" data-left="1512" data-top="416" data-width="317" data-height="191">
+
+        <!-- 背景 (组 合) -->
+        <div id="u19918" class="ax_default" data-label="背景" data-left="1512" data-top="416" data-width="317" data-height="191">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u19919" class="ax_default box_1">
+            <div id="u19919_div" class=""></div>
+          </div>
+
+          <!-- 编辑/添加 (矩形) -->
+          <div id="u19920" class="ax_default box_1" data-label="编辑/添加">
+            <div id="u19920_div" class=""></div>
+            <div id="u19920_text" class="text ">
+              <p><span>提示</span></p>
+            </div>
+          </div>
+
+          <!-- × (矩形) -->
+          <div id="u19921" class="ax_default box_1" data-label="×">
+            <img id="u19921_img" class="img " src="images/合成主题/×_u10002.png"/>
+            <div id="u19921_text" class="text ">
+              <p><span>×</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u19922" class="ax_default" data-left="1552" data-top="488" data-width="250" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u19923" class="ax_default box_1">
+            <div id="u19923_div" class=""></div>
+            <div id="u19923_text" class="text ">
+              <p><span>数据删除后无法恢复，确定要删除吗？</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 保存 (矩形) -->
+        <div id="u19924" class="ax_default box_1" data-label="保存">
+          <div id="u19924_div" class=""></div>
+          <div id="u19924_text" class="text ">
+            <p><span>确定</span></p>
+          </div>
+        </div>
+
+        <!-- 保存 (矩形) -->
+        <div id="u19925" class="ax_default box_1" data-label="保存">
+          <div id="u19925_div" class=""></div>
+          <div id="u19925_text" class="text ">
+            <p><span>取消</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (平台后台) -->
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19927" class="ax_default box_2">
+        <div id="u19927_div" class=""></div>
+      </div>
+
+      <!-- 编辑密码弹窗 (组 合) -->
+      <div id="u19928" class="ax_default ax_default_hidden" data-label="编辑密码弹窗" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- 半透层 (矩形) -->
+        <div id="u19929" class="ax_default box_2" data-label="半透层">
+          <div id="u19929_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19930" class="ax_default box_1">
+          <div id="u19930_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19931" class="ax_default box_1">
+          <div id="u19931_div" class=""></div>
+          <div id="u19931_text" class="text ">
+            <p><span>编辑密码</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19932" class="ax_default box_1">
+          <div id="u19932_div" class=""></div>
+          <div id="u19932_text" class="text ">
+            <p><span>×</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19933" class="ax_default box_1">
+          <div id="u19933_div" class=""></div>
+          <div id="u19933_text" class="text ">
+            <p><span>保存</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u19934" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u19935" class="ax_default box_1">
+            <div id="u19935_div" class=""></div>
+            <div id="u19935_text" class="text ">
+              <p><span>旧密码：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (文本框) -->
+          <div id="u19936" class="ax_default text_field">
+            <input id="u19936_input" type="text" value=""/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u19937" class="ax_default box_1">
+            <div id="u19937_div" class=""></div>
+            <div id="u19937_text" class="text ">
+              <p><span>确认新密码：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (文本框) -->
+          <div id="u19938" class="ax_default text_field">
+            <input id="u19938_input" type="text" value=""/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u19939" class="ax_default box_1">
+            <div id="u19939_div" class=""></div>
+            <div id="u19939_text" class="text ">
+              <p><span>新密码：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (文本框) -->
+          <div id="u19940" class="ax_default text_field">
+            <input id="u19940_input" type="text" value=""/>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u19941" class="ax_default _图片">
+        <img id="u19941_img" class="img " src="images/品牌管理/u1106.png"/>
+      </div>
+
+      <!-- 合成管理 (动态面板) -->
+      <div id="u19942" class="ax_default" data-label="合成管理">
+        <div id="u19942_state0" class="panel_state" data-label="收起" style="">
+          <div id="u19942_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19943" class="ax_default box_1">
+              <div id="u19943_div" class=""></div>
+              <div id="u19943_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 合成管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19944" class="ax_default shape">
+              <img id="u19944_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow right (形状) -->
+            <div id="u19945" class="ax_default shape" data-label="keyboard arrow right">
+              <img id="u19945_img" class="img " src="images/品牌管理/keyboard_arrow_right_u1110.png"/>
+            </div>
+          </div>
+        </div>
+        <div id="u19942_state1" class="panel_state" data-label="展开" style="visibility: hidden;">
+          <div id="u19942_state1_content" class="panel_state_content">
+
+            <!-- 合成管理 (矩形) -->
+            <div id="u19946" class="ax_default box_1" data-label="合成管理">
+              <div id="u19946_div" class=""></div>
+              <div id="u19946_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 合成管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19947" class="ax_default shape">
+              <img id="u19947_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow down (形状) -->
+            <div id="u19948" class="ax_default shape" data-label="keyboard arrow down">
+              <img id="u19948_img" class="img " src="images/品牌管理/keyboard_arrow_down_u1113.png"/>
+            </div>
+
+            <!-- 合成主题 (矩形) -->
+            <div id="u19949" class="ax_default box_1" data-label="合成主题" selectiongroup="u19926二级菜单">
+              <img id="u19949_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19949_text" class="text ">
+                <p><span>合成主题</span></p>
+              </div>
+            </div>
+
+            <!-- 合成玩法 (矩形) -->
+            <div id="u19950" class="ax_default box_1" data-label="合成玩法" selectiongroup="u19926二级菜单">
+              <img id="u19950_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19950_text" class="text ">
+                <p><span>合成玩法</span></p>
+              </div>
+            </div>
+
+            <!-- 合成奖励 (矩形) -->
+            <div id="u19951" class="ax_default box_1" data-label="合成奖励" selectiongroup="u19926二级菜单">
+              <img id="u19951_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19951_text" class="text ">
+                <p><span>合成奖励</span></p>
+              </div>
+            </div>
+
+            <!-- 合成记录 (矩形) -->
+            <div id="u19952" class="ax_default box_1" data-label="合成记录" selectiongroup="u19926二级菜单">
+              <img id="u19952_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19952_text" class="text ">
+                <p><span>合成记录</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19953" class="ax_default box_1 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19953_div" class=""></div>
+      </div>
+
+      <!-- 系统名称 (矩形) -->
+      <div id="u19954" class="ax_default box_1 ax_default_hidden" data-label="系统名称" style="display:none; visibility: hidden">
+        <div id="u19954_div" class=""></div>
+        <div id="u19954_text" class="text ">
+          <p><span>酷袋桌球会员管理系统</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u19955" class="ax_default line ax_default_hidden" style="display:none; visibility: hidden">
+        <img id="u19955_img" class="img " src="images/品牌管理/u1120.png"/>
+      </div>
+
+      <!-- logo (矩形) -->
+      <div id="u19956" class="ax_default box_1 ax_default_hidden" data-label="logo" style="display:none; visibility: hidden">
+        <img id="u19956_img" class="img " src="images/品牌管理/logo_u1121.png"/>
+        <div id="u19956_text" class="text ">
+          <p><span>产品</span></p><p><span>LOGO</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19957" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19957_div" class=""></div>
+        <div id="u19957_text" class="text ">
+          <p><span>用户账号</span></p>
+        </div>
+      </div>
+
+      <!-- 注销 (组 合) -->
+      <div id="u19958" class="ax_default ax_default_hidden" data-label="注销" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19959" class="ax_default box_2">
+          <div id="u19959_div" class=""></div>
+          <div id="u19959_text" class="text ">
+            <p><span style="text-decoration:underline;">退出账号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u19960" class="ax_default icon">
+          <img id="u19960_img" class="img " src="images/品牌管理/u1125.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19961" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19961_div" class=""></div>
+        <div id="u19961_text" class="text ">
+          <p><span>欢迎您！</span></p>
+        </div>
+      </div>
+
+      <!-- 编辑密码 (组 合) -->
+      <div id="u19962" class="ax_default ax_default_hidden" data-label="编辑密码" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u19963" class="ax_default box_2">
+          <div id="u19963_div" class=""></div>
+          <div id="u19963_text" class="text ">
+            <p><span style="text-decoration:underline;">编辑密码</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u19964" class="ax_default icon">
+          <img id="u19964_img" class="img " src="images/品牌管理/u1129.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19965" class="ax_default box_2 ax_default_hidden" style="display:none; visibility: hidden">
+        <div id="u19965_div" class=""></div>
+        <div id="u19965_text" class="text ">
+          <p><span>[用户类型]</span></p>
+        </div>
+      </div>
+
+      <!-- 注册成功提示 (矩形) -->
+      <div id="u19966" class="ax_default box_3 ax_default_hidden" data-label="注册成功提示" style="display:none; visibility: hidden">
+        <div id="u19966_div" class=""></div>
+        <div id="u19966_text" class="text ">
+          <p><span>编辑密码成功！</span></p>
+        </div>
+      </div>
+
+      <!-- 盲盒管理 (动态面板) -->
+      <div id="u19967" class="ax_default" data-label="盲盒管理">
+        <div id="u19967_state0" class="panel_state" data-label="收起" style="">
+          <div id="u19967_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19968" class="ax_default box_1">
+              <div id="u19968_div" class=""></div>
+              <div id="u19968_text" class="text ">
+                <p><span>&nbsp;&nbsp; &nbsp; 盲盒管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19969" class="ax_default shape">
+              <img id="u19969_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow right (形状) -->
+            <div id="u19970" class="ax_default shape" data-label="keyboard arrow right">
+              <img id="u19970_img" class="img " src="images/品牌管理/keyboard_arrow_right_u1110.png"/>
+            </div>
+          </div>
+        </div>
+        <div id="u19967_state1" class="panel_state" data-label="展开" style="visibility: hidden;">
+          <div id="u19967_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19971" class="ax_default box_1">
+              <div id="u19971_div" class=""></div>
+              <div id="u19971_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 盲盒管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19972" class="ax_default shape">
+              <img id="u19972_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow down (形状) -->
+            <div id="u19973" class="ax_default shape" data-label="keyboard arrow down">
+              <img id="u19973_img" class="img " src="images/品牌管理/keyboard_arrow_down_u1113.png"/>
+            </div>
+
+            <!-- 发布盲盒 (矩形) -->
+            <div id="u19974" class="ax_default box_1" data-label="发布盲盒" selectiongroup="u19926二级菜单">
+              <img id="u19974_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19974_text" class="text ">
+                <p><span>发布盲盒</span></p>
+              </div>
+            </div>
+
+            <!-- 盲盒明细 (矩形) -->
+            <div id="u19975" class="ax_default box_1" data-label="盲盒明细" selectiongroup="u19926二级菜单">
+              <img id="u19975_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19975_text" class="text ">
+                <p><span>盲盒明细</span></p>
+              </div>
+            </div>
+
+            <!-- 热门活动 (矩形) -->
+            <div id="u19976" class="ax_default box_1 ax_default_hidden" data-label="热门活动" selectiongroup="u19926二级菜单" style="display:none; visibility: hidden">
+              <img id="u19976_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19976_text" class="text ">
+                <p><span>首页商品</span></p>
+              </div>
+            </div>
+
+            <!-- 首页弹窗广告 (矩形) -->
+            <div id="u19977" class="ax_default box_1 ax_default_hidden" data-label="首页弹窗广告" selectiongroup="u19926二级菜单" style="display:none; visibility: hidden">
+              <img id="u19977_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19977_text" class="text ">
+                <p><span>首页弹窗广告</span></p>
+              </div>
+            </div>
+
+            <!-- 活动管理 (矩形) -->
+            <div id="u19978" class="ax_default box_1 ax_default_hidden" data-label="活动管理" selectiongroup="u19926二级菜单" style="display:none; visibility: hidden">
+              <img id="u19978_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19978_text" class="text ">
+                <p><span>活动管理</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 机构管理 (动态面板) -->
+      <div id="u19979" class="ax_default" data-label="机构管理">
+        <div id="u19979_state0" class="panel_state" data-label="收起" style="">
+          <div id="u19979_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19980" class="ax_default box_1">
+              <div id="u19980_div" class=""></div>
+              <div id="u19980_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 机构管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19981" class="ax_default shape">
+              <img id="u19981_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow right (形状) -->
+            <div id="u19982" class="ax_default shape" data-label="keyboard arrow right">
+              <img id="u19982_img" class="img " src="images/品牌管理/keyboard_arrow_right_u1110.png"/>
+            </div>
+          </div>
+        </div>
+        <div id="u19979_state1" class="panel_state" data-label="展开" style="visibility: hidden;">
+          <div id="u19979_state1_content" class="panel_state_content">
+
+            <!-- 机构管理 (矩形) -->
+            <div id="u19983" class="ax_default box_1" data-label="机构管理">
+              <div id="u19983_div" class=""></div>
+              <div id="u19983_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 机构管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19984" class="ax_default shape">
+              <img id="u19984_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow down (形状) -->
+            <div id="u19985" class="ax_default shape" data-label="keyboard arrow down">
+              <img id="u19985_img" class="img " src="images/品牌管理/keyboard_arrow_down_u1113.png"/>
+            </div>
+
+            <!-- 机构管理 (矩形) -->
+            <div id="u19986" class="ax_default box_1" data-label="机构管理" selectiongroup="u19926二级菜单">
+              <img id="u19986_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19986_text" class="text ">
+                <p><span>机构管理</span></p>
+              </div>
+            </div>
+
+            <!-- 后台用户 (矩形) -->
+            <div id="u19987" class="ax_default box_1" data-label="后台用户" selectiongroup="u19926二级菜单">
+              <img id="u19987_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19987_text" class="text ">
+                <p><span>后台用户</span></p>
+              </div>
+            </div>
+
+            <!-- 平台用户 (矩形) -->
+            <div id="u19988" class="ax_default box_1" data-label="平台用户" selectiongroup="u19926二级菜单">
+              <img id="u19988_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19988_text" class="text ">
+                <p><span>平台用户</span></p>
+              </div>
+            </div>
+
+            <!-- 品牌管理 (矩形) -->
+            <div id="u19989" class="ax_default box_1" data-label="品牌管理" selectiongroup="u19926二级菜单">
+              <img id="u19989_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19989_text" class="text ">
+                <p><span>品牌管理</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 一级页面 (矩形) -->
+      <div id="u19990" class="ax_default box_2" data-label="一级页面">
+        <div id="u19990_div" class=""></div>
+        <div id="u19990_text" class="text ">
+          <p><span>机构管理</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19991" class="ax_default box_2">
+        <div id="u19991_div" class=""></div>
+        <div id="u19991_text" class="text ">
+          <p><span>/</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u19992" class="ax_default box_2">
+        <div id="u19992_div" class=""></div>
+        <div id="u19992_text" class="text ">
+          <p><span>/</span></p>
+        </div>
+      </div>
+
+      <!-- 当前页名称 (矩形) -->
+      <div id="u19993" class="ax_default box_2 disabled" data-label="当前页名称">
+        <div id="u19993_div" class="disabled"></div>
+        <div id="u19993_text" class="text ">
+          <p><span>子机构</span></p>
+        </div>
+      </div>
+
+      <!-- 商品管理 (动态面板) -->
+      <div id="u19994" class="ax_default ax_default_hidden" data-label="商品管理" style="display:none; visibility: hidden">
+        <div id="u19994_state0" class="panel_state" data-label="展开" style="">
+          <div id="u19994_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u19995" class="ax_default box_1">
+              <div id="u19995_div" class=""></div>
+              <div id="u19995_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 主播代销</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u19996" class="ax_default shape">
+              <img id="u19996_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow down (形状) -->
+            <div id="u19997" class="ax_default shape" data-label="keyboard arrow down">
+              <img id="u19997_img" class="img " src="images/品牌管理/keyboard_arrow_down_u1113.png"/>
+            </div>
+
+            <!-- 电子券管理 (矩形) -->
+            <div id="u19998" class="ax_default box_1" data-label="电子券管理" selectiongroup="u19926二级菜单">
+              <img id="u19998_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19998_text" class="text ">
+                <p><span>工会管理</span></p>
+              </div>
+            </div>
+
+            <!-- 活动位 (矩形) -->
+            <div id="u19999" class="ax_default box_1" data-label="活动位" selectiongroup="u19926二级菜单">
+              <img id="u19999_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u19999_text" class="text ">
+                <p><span>代销账户</span></p>
+              </div>
+            </div>
+
+            <!-- 热门活动 (矩形) -->
+            <div id="u20000" class="ax_default box_1" data-label="热门活动" selectiongroup="u19926二级菜单">
+              <img id="u20000_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20000_text" class="text ">
+                <p><span>链接商品</span></p>
+              </div>
+            </div>
+
+            <!-- 热门活动 (矩形) -->
+            <div id="u20001" class="ax_default box_1" data-label="热门活动" selectiongroup="u19926二级菜单">
+              <img id="u20001_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20001_text" class="text ">
+                <p><span>提成明细</span></p>
+              </div>
+            </div>
+
+            <!-- 热门活动 (矩形) -->
+            <div id="u20002" class="ax_default box_1" data-label="热门活动" selectiongroup="u19926二级菜单">
+              <img id="u20002_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20002_text" class="text ">
+                <p><span>提现记录</span></p>
+              </div>
+            </div>
+
+            <!-- 热门活动 (矩形) -->
+            <div id="u20003" class="ax_default box_1" data-label="热门活动" selectiongroup="u19926二级菜单">
+              <img id="u20003_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20003_text" class="text ">
+                <p><span>审核</span></p>
+              </div>
+            </div>
+
+            <!-- 电子券管理 (矩形) -->
+            <div id="u20004" class="ax_default box_1" data-label="电子券管理" selectiongroup="u19926二级菜单">
+              <img id="u20004_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20004_text" class="text ">
+                <p><span>主播管理</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u19994_state1" class="panel_state" data-label="收起" style="visibility: hidden;">
+          <div id="u19994_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20005" class="ax_default box_1">
+              <div id="u20005_div" class=""></div>
+              <div id="u20005_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 商品管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20006" class="ax_default shape">
+              <img id="u20006_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow right (形状) -->
+            <div id="u20007" class="ax_default shape" data-label="keyboard arrow right">
+              <img id="u20007_img" class="img " src="images/品牌管理/keyboard_arrow_right_u1110.png"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 营销管理 (动态面板) -->
+      <div id="u20008" class="ax_default ax_default_hidden" data-label="营销管理" style="display:none; visibility: hidden">
+        <div id="u20008_state0" class="panel_state" data-label="展开" style="">
+          <div id="u20008_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20009" class="ax_default box_1">
+              <div id="u20009_div" class=""></div>
+              <div id="u20009_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 内容管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20010" class="ax_default shape">
+              <img id="u20010_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow down (形状) -->
+            <div id="u20011" class="ax_default shape" data-label="keyboard arrow down">
+              <img id="u20011_img" class="img " src="images/品牌管理/keyboard_arrow_down_u1113.png"/>
+            </div>
+
+            <!-- 轮播图 (矩形) -->
+            <div id="u20012" class="ax_default box_1" data-label="轮播图" selectiongroup="u19926二级菜单">
+              <img id="u20012_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20012_text" class="text ">
+                <p><span>热门推荐</span></p>
+              </div>
+            </div>
+
+            <!-- 模块管理 (矩形) -->
+            <div id="u20013" class="ax_default box_1 ax_default_hidden" data-label="模块管理" selectiongroup="u19926二级菜单" style="display:none; visibility: hidden">
+              <img id="u20013_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20013_text" class="text ">
+                <p><span>活动管理</span></p>
+              </div>
+            </div>
+
+            <!-- 热门活动 (矩形) -->
+            <div id="u20014" class="ax_default box_1 ax_default_hidden" data-label="热门活动" selectiongroup="u19926二级菜单" style="display:none; visibility: hidden">
+              <img id="u20014_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20014_text" class="text ">
+                <p><span>NFT合成</span></p>
+              </div>
+            </div>
+
+            <!-- 热门活动 (矩形) -->
+            <div id="u20015" class="ax_default box_1 ax_default_hidden" data-label="热门活动" selectiongroup="u19926二级菜单" style="display:none; visibility: hidden">
+              <img id="u20015_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20015_text" class="text ">
+                <p><span>积分路径</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u20008_state1" class="panel_state" data-label="收起" style="visibility: hidden;">
+          <div id="u20008_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20016" class="ax_default box_1">
+              <div id="u20016_div" class=""></div>
+              <div id="u20016_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 营销管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20017" class="ax_default shape">
+              <img id="u20017_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow right (形状) -->
+            <div id="u20018" class="ax_default shape" data-label="keyboard arrow right">
+              <img id="u20018_img" class="img " src="images/品牌管理/keyboard_arrow_right_u1110.png"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 系统管理 (动态面板) -->
+      <div id="u20019" class="ax_default" data-label="系统管理">
+        <div id="u20019_state0" class="panel_state" data-label="收起" style="">
+          <div id="u20019_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20020" class="ax_default box_1">
+              <div id="u20020_div" class=""></div>
+              <div id="u20020_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 内容管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20021" class="ax_default shape">
+              <img id="u20021_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow right (形状) -->
+            <div id="u20022" class="ax_default shape" data-label="keyboard arrow right">
+              <img id="u20022_img" class="img " src="images/品牌管理/keyboard_arrow_right_u1110.png"/>
+            </div>
+          </div>
+        </div>
+        <div id="u20019_state1" class="panel_state" data-label="展开" style="visibility: hidden;">
+          <div id="u20019_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20023" class="ax_default box_1">
+              <div id="u20023_div" class=""></div>
+              <div id="u20023_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 系统管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20024" class="ax_default shape">
+              <img id="u20024_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow down (形状) -->
+            <div id="u20025" class="ax_default shape" data-label="keyboard arrow down">
+              <img id="u20025_img" class="img " src="images/品牌管理/keyboard_arrow_down_u1113.png"/>
+            </div>
+
+            <!-- 费率配置 (矩形) -->
+            <div id="u20026" class="ax_default box_1" data-label="费率配置" selectiongroup="u19926二级菜单">
+              <img id="u20026_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20026_text" class="text ">
+                <p><span>费率配置</span></p>
+              </div>
+            </div>
+
+            <!-- 轮播图管理 (矩形) -->
+            <div id="u20027" class="ax_default box_1 ax_default_hidden" data-label="轮播图管理" selectiongroup="u19926二级菜单" style="display:none; visibility: hidden">
+              <img id="u20027_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20027_text" class="text ">
+                <p><span>轮播图管理</span></p>
+              </div>
+            </div>
+
+            <!-- 首发NFT (矩形) -->
+            <div id="u20028" class="ax_default box_1 ax_default_hidden" data-label="首发NFT" selectiongroup="u19926二级菜单" style="display:none; visibility: hidden">
+              <img id="u20028_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20028_text" class="text ">
+                <p><span>首发主题</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 一级页面 (矩形) -->
+      <div id="u20029" class="ax_default box_2" data-label="一级页面">
+        <div id="u20029_div" class=""></div>
+        <div id="u20029_text" class="text ">
+          <p><span>首页</span></p>
+        </div>
+      </div>
+
+      <!-- 订单管理 (动态面板) -->
+      <div id="u20030" class="ax_default" data-label="订单管理">
+        <div id="u20030_state0" class="panel_state" data-label="收起" style="">
+          <div id="u20030_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20031" class="ax_default box_1">
+              <div id="u20031_div" class=""></div>
+              <div id="u20031_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 订单管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20032" class="ax_default shape">
+              <img id="u20032_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow right (形状) -->
+            <div id="u20033" class="ax_default shape" data-label="keyboard arrow right">
+              <img id="u20033_img" class="img " src="images/品牌管理/keyboard_arrow_right_u1110.png"/>
+            </div>
+          </div>
+        </div>
+        <div id="u20030_state1" class="panel_state" data-label="展开" style="visibility: hidden;">
+          <div id="u20030_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20034" class="ax_default box_1">
+              <div id="u20034_div" class=""></div>
+              <div id="u20034_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 订单管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20035" class="ax_default shape">
+              <img id="u20035_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow down (形状) -->
+            <div id="u20036" class="ax_default shape" data-label="keyboard arrow down">
+              <img id="u20036_img" class="img " src="images/品牌管理/keyboard_arrow_down_u1113.png"/>
+            </div>
+
+            <!-- 订单管理 (矩形) -->
+            <div id="u20037" class="ax_default box_1" data-label="订单管理" selectiongroup="u19926二级菜单">
+              <img id="u20037_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20037_text" class="text ">
+                <p><span>订单管理</span></p>
+              </div>
+            </div>
+
+            <!-- 电子券订单 (矩形) -->
+            <div id="u20038" class="ax_default box_1 ax_default_hidden" data-label="电子券订单" selectiongroup="u19926二级菜单" style="display:none; visibility: hidden">
+              <img id="u20038_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20038_text" class="text ">
+                <p><span>电子券订单</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NFT管理 (动态面板) -->
+      <div id="u20039" class="ax_default" data-label="NFT管理">
+        <div id="u20039_state0" class="panel_state" data-label="展开" style="">
+          <div id="u20039_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20040" class="ax_default box_1">
+              <div id="u20040_div" class=""></div>
+              <div id="u20040_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; NFT管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20041" class="ax_default shape">
+              <img id="u20041_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow down (形状) -->
+            <div id="u20042" class="ax_default shape" data-label="keyboard arrow down">
+              <img id="u20042_img" class="img " src="images/品牌管理/keyboard_arrow_down_u1113.png"/>
+            </div>
+
+            <!-- 主题管理 (矩形) -->
+            <div id="u20043" class="ax_default box_1" data-label="主题管理" selectiongroup="u19926二级菜单">
+              <img id="u20043_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20043_text" class="text ">
+                <p><span>主题管理</span></p>
+              </div>
+            </div>
+
+            <!-- 发布NFT (矩形) -->
+            <div id="u20044" class="ax_default box_1" data-label="发布NFT" selectiongroup="u19926二级菜单">
+              <img id="u20044_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20044_text" class="text ">
+                <p><span>发布NFT</span></p>
+              </div>
+            </div>
+
+            <!-- NFT明细 (矩形) -->
+            <div id="u20045" class="ax_default box_1" data-label="NFT明细" selectiongroup="u19926二级菜单">
+              <img id="u20045_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20045_text" class="text ">
+                <p><span>NFT明细</span></p>
+              </div>
+            </div>
+
+            <!-- NFT明细 (矩形) -->
+            <div id="u20046" class="ax_default box_1" data-label="NFT明细" selectiongroup="u19926二级菜单">
+              <img id="u20046_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20046_text" class="text ">
+                <p><span>空投记录</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u20039_state1" class="panel_state" data-label="收起" style="visibility: hidden;">
+          <div id="u20039_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20047" class="ax_default box_1">
+              <div id="u20047_div" class=""></div>
+              <div id="u20047_text" class="text ">
+                <p><span>&nbsp;&nbsp; &nbsp; NFT管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20048" class="ax_default shape">
+              <img id="u20048_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow right (形状) -->
+            <div id="u20049" class="ax_default shape" data-label="keyboard arrow right">
+              <img id="u20049_img" class="img " src="images/品牌管理/keyboard_arrow_right_u1110.png"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u20050" class="ax_default" data-left="568" data-top="859" data-width="938" data-height="36">
+
+        <!-- 实时在线 (矩形) -->
+        <div id="u20051" class="ax_default primary_button1" data-label="实时在线">
+          <div id="u20051_div" class=""></div>
+          <div id="u20051_text" class="text ">
+            <p><span>共有595条记录 ，每页显示</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (下拉列表框) -->
+        <div id="u20052" class="ax_default droplist">
+          <select id="u20052_input">
+            <option selected value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+          </select>
+        </div>
+
+        <!-- 实时在线 (矩形) -->
+        <div id="u20053" class="ax_default primary_button1" data-label="实时在线">
+          <div id="u20053_div" class=""></div>
+          <div id="u20053_text" class="text ">
+            <p><span>条</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20054" class="ax_default box_1">
+          <div id="u20054_div" class=""></div>
+          <div id="u20054_text" class="text ">
+            <p><span>首页</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20055" class="ax_default box_1">
+          <div id="u20055_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20056" class="ax_default box_1">
+          <div id="u20056_div" class=""></div>
+          <div id="u20056_text" class="text ">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20057" class="ax_default box_1">
+          <div id="u20057_div" class=""></div>
+          <div id="u20057_text" class="text ">
+            <p><span>2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20058" class="ax_default box_1">
+          <div id="u20058_div" class=""></div>
+          <div id="u20058_text" class="text ">
+            <p><span>6</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20059" class="ax_default box_1">
+          <div id="u20059_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20060" class="ax_default box_1">
+          <div id="u20060_div" class=""></div>
+          <div id="u20060_text" class="text ">
+            <p><span>尾页</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u20061" class="ax_default icon disabled">
+          <img id="u20061_img" class="img " src="images/品牌管理/u1226.png"/>
+        </div>
+
+        <!-- 实时在线 (矩形) -->
+        <div id="u20062" class="ax_default primary_button1" data-label="实时在线">
+          <div id="u20062_div" class=""></div>
+          <div id="u20062_text" class="text ">
+            <p><span>...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20063" class="ax_default box_1">
+          <div id="u20063_div" class=""></div>
+          <div id="u20063_text" class="text ">
+            <p><span>3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u20064" class="ax_default icon">
+          <img id="u20064_img" class="img " src="images/品牌管理/u1229.png"/>
+        </div>
+
+        <!-- 实时在线 (矩形) -->
+        <div id="u20065" class="ax_default primary_button1" data-label="实时在线">
+          <div id="u20065_div" class=""></div>
+          <div id="u20065_text" class="text ">
+            <p><span>跳转至</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本框) -->
+        <div id="u20066" class="ax_default text_field">
+          <input id="u20066_input" type="text" value=""/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20067" class="ax_default box_1">
+          <div id="u20067_div" class=""></div>
+          <div id="u20067_text" class="text ">
+            <p><span>GO</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20068" class="ax_default box_2">
+        <div id="u20068_div" class=""></div>
+        <div id="u20068_text" class="text ">
+          <p><span>捏饭团管理后台</span></p>
+        </div>
+      </div>
+
+      <!-- 拍卖管理 (动态面板) -->
+      <div id="u20069" class="ax_default" data-label="拍卖管理">
+        <div id="u20069_state0" class="panel_state" data-label="收起" style="">
+          <div id="u20069_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20070" class="ax_default box_1">
+              <div id="u20070_div" class=""></div>
+              <div id="u20070_text" class="text ">
+                <p><span>&nbsp;&nbsp; &nbsp; 拍卖管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20071" class="ax_default shape">
+              <img id="u20071_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow right (形状) -->
+            <div id="u20072" class="ax_default shape" data-label="keyboard arrow right">
+              <img id="u20072_img" class="img " src="images/品牌管理/keyboard_arrow_right_u1110.png"/>
+            </div>
+          </div>
+        </div>
+        <div id="u20069_state1" class="panel_state" data-label="展开" style="visibility: hidden;">
+          <div id="u20069_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20073" class="ax_default box_1">
+              <div id="u20073_div" class=""></div>
+              <div id="u20073_text" class="text ">
+                <p><span>&nbsp;&nbsp;&nbsp; 拍卖管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20074" class="ax_default shape">
+              <img id="u20074_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow down (形状) -->
+            <div id="u20075" class="ax_default shape" data-label="keyboard arrow down">
+              <img id="u20075_img" class="img " src="images/品牌管理/keyboard_arrow_down_u1113.png"/>
+            </div>
+
+            <!-- 拍卖管理 (矩形) -->
+            <div id="u20076" class="ax_default box_1" data-label="拍卖管理" selectiongroup="u19926二级菜单">
+              <img id="u20076_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20076_text" class="text ">
+                <p><span>拍卖管理</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 优惠券管理 (动态面板) -->
+      <div id="u20077" class="ax_default" data-label="优惠券管理">
+        <div id="u20077_state0" class="panel_state" data-label="收起" style="">
+          <div id="u20077_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20078" class="ax_default box_1">
+              <div id="u20078_div" class=""></div>
+              <div id="u20078_text" class="text ">
+                <p><span>&nbsp;&nbsp; &nbsp; 优惠券管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20079" class="ax_default shape">
+              <img id="u20079_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow right (形状) -->
+            <div id="u20080" class="ax_default shape" data-label="keyboard arrow right">
+              <img id="u20080_img" class="img " src="images/品牌管理/keyboard_arrow_right_u1110.png"/>
+            </div>
+          </div>
+        </div>
+        <div id="u20077_state1" class="panel_state" data-label="展开" style="visibility: hidden;">
+          <div id="u20077_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20081" class="ax_default box_1">
+              <div id="u20081_div" class=""></div>
+              <div id="u20081_text" class="text ">
+                <p><span>&nbsp;&nbsp; &nbsp; 优惠券管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20082" class="ax_default shape">
+              <img id="u20082_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow down (形状) -->
+            <div id="u20083" class="ax_default shape" data-label="keyboard arrow down">
+              <img id="u20083_img" class="img " src="images/品牌管理/keyboard_arrow_down_u1113.png"/>
+            </div>
+
+            <!-- 电子券管理 (矩形) -->
+            <div id="u20084" class="ax_default box_1" data-label="电子券管理" selectiongroup="u19926二级菜单">
+              <img id="u20084_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20084_text" class="text ">
+                <p><span>优惠券管理</span></p>
+              </div>
+            </div>
+
+            <!-- 活动位 (矩形) -->
+            <div id="u20085" class="ax_default box_1" data-label="活动位" selectiongroup="u19926二级菜单">
+              <img id="u20085_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20085_text" class="text ">
+                <p><span>用券记录</span></p>
+              </div>
+            </div>
+
+            <!-- 电子券管理 (矩形) -->
+            <div id="u20086" class="ax_default box_1" data-label="电子券管理" selectiongroup="u19926二级菜单">
+              <img id="u20086_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20086_text" class="text ">
+                <p><span>发券记录</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 优先购管理 (动态面板) -->
+      <div id="u20087" class="ax_default" data-label="优先购管理">
+        <div id="u20087_state0" class="panel_state" data-label="收起" style="">
+          <div id="u20087_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20088" class="ax_default box_1">
+              <div id="u20088_div" class=""></div>
+              <div id="u20088_text" class="text ">
+                <p><span>&nbsp;&nbsp; &nbsp; 优先购管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20089" class="ax_default shape">
+              <img id="u20089_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow right (形状) -->
+            <div id="u20090" class="ax_default shape" data-label="keyboard arrow right">
+              <img id="u20090_img" class="img " src="images/品牌管理/keyboard_arrow_right_u1110.png"/>
+            </div>
+          </div>
+        </div>
+        <div id="u20087_state1" class="panel_state" data-label="展开" style="visibility: hidden;">
+          <div id="u20087_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u20091" class="ax_default box_1">
+              <div id="u20091_div" class=""></div>
+              <div id="u20091_text" class="text ">
+                <p><span>&nbsp;&nbsp; &nbsp; 优先购管理</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u20092" class="ax_default shape">
+              <img id="u20092_img" class="img " src="images/品牌管理/u1109.png"/>
+            </div>
+
+            <!-- keyboard arrow down (形状) -->
+            <div id="u20093" class="ax_default shape" data-label="keyboard arrow down">
+              <img id="u20093_img" class="img " src="images/品牌管理/keyboard_arrow_down_u1113.png"/>
+            </div>
+
+            <!-- 订单管理 (矩形) -->
+            <div id="u20094" class="ax_default box_1" data-label="订单管理" selectiongroup="u19926二级菜单">
+              <img id="u20094_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20094_text" class="text ">
+                <p><span>优先购管理</span></p>
+              </div>
+            </div>
+
+            <!-- 电子券订单 (矩形) -->
+            <div id="u20095" class="ax_default box_1 ax_default_hidden" data-label="电子券订单" selectiongroup="u19926二级菜单" style="display:none; visibility: hidden">
+              <img id="u20095_img" class="img " src="images/品牌管理/合成主题_u1114.png"/>
+              <div id="u20095_text" class="text ">
+                <p><span>电子券订单</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u20096" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20097" class="ax_default">
+          <img id="u20097_img" class="img " src="images/机构管理/u2282.png"/>
+          <div id="u20097_text" class="text ">
+            <p><span>主题编号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20098" class="ax_default">
+          <img id="u20098_img" class="img " src="images/合成奖励/u10623.png"/>
+          <div id="u20098_text" class="text ">
+            <p><span>主题名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20099" class="ax_default">
+          <img id="u20099_img" class="img " src="images/预约抽签-管理后台/u20099.png"/>
+          <div id="u20099_text" class="text ">
+            <p><span>所属品牌</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20100" class="ax_default">
+          <img id="u20100_img" class="img " src="images/订单管理/u2855.png"/>
+          <div id="u20100_text" class="text ">
+            <p><span>封面图</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20101" class="ax_default">
+          <img id="u20101_img" class="img " src="images/订单管理/u2855.png"/>
+          <div id="u20101_text" class="text ">
+            <p><span>主图</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20102" class="ax_default">
+          <img id="u20102_img" class="img " src="images/订单管理/u2855.png"/>
+          <div id="u20102_text" class="text ">
+            <p><span>多媒体文件</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20103" class="ax_default">
+          <img id="u20103_img" class="img " src="images/预约抽签-管理后台/u20103.png"/>
+          <div id="u20103_text" class="text ">
+            <p><span>主题描述</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20104" class="ax_default">
+          <img id="u20104_img" class="img " src="images/发布nft/u1807.png"/>
+          <div id="u20104_text" class="text ">
+            <p><span>预约方式</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20105" class="ax_default">
+          <img id="u20105_img" class="img " src="images/主播管理/u16593.png"/>
+          <div id="u20105_text" class="text ">
+            <p><span>稀有度</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20106" class="ax_default">
+          <img id="u20106_img" class="img " src="images/预约抽签-管理后台/u20106.png"/>
+          <div id="u20106_text" class="text ">
+            <p><span>入口展示类型</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20107" class="ax_default">
+          <img id="u20107_img" class="img " src="images/主播管理/u16593.png"/>
+          <div id="u20107_text" class="text ">
+            <p><span>限购</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20108" class="ax_default">
+          <img id="u20108_img" class="img " src="images/发布nft/u1807.png"/>
+          <div id="u20108_text" class="text ">
+            <p><span>限购数量</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20109" class="ax_default">
+          <img id="u20109_img" class="img " src="images/主播管理/u16593.png"/>
+          <div id="u20109_text" class="text ">
+            <p><span>预约抽签</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20110" class="ax_default">
+          <img id="u20110_img" class="img " src="images/主播管理/u16593.png"/>
+          <div id="u20110_text" class="text ">
+            <p><span>状态</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20111" class="ax_default">
+          <img id="u20111_img" class="img " src="images/预约抽签-管理后台/u20111.png"/>
+          <div id="u20111_text" class="text ">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20112" class="ax_default">
+          <img id="u20112_img" class="img " src="images/机构管理/u2290.png"/>
+          <div id="u20112_text" class="text ">
+            <p><span>nft2021101000101000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20113" class="ax_default">
+          <img id="u20113_img" class="img " src="images/合成奖励/u10631.png"/>
+          <div id="u20113_text" class="text ">
+            <p><span>李宁001</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20114" class="ax_default">
+          <img id="u20114_img" class="img " src="images/预约抽签-管理后台/u20114.png"/>
+          <div id="u20114_text" class="text ">
+            <p><span>李宁</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20115" class="ax_default">
+          <img id="u20115_img" class="img " src="images/订单管理/u2875.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20116" class="ax_default">
+          <img id="u20116_img" class="img " src="images/订单管理/u2875.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20117" class="ax_default">
+          <img id="u20117_img" class="img " src="images/订单管理/u2875.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20118" class="ax_default">
+          <img id="u20118_img" class="img " src="images/预约抽签-管理后台/u20118.png"/>
+          <div id="u20118_text" class="text ">
+            <p><span>这里是文字描述，</span></p><p><span>多行文本自动换行...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20119" class="ax_default">
+          <img id="u20119_img" class="img " src="images/发布nft/u1827.png"/>
+          <div id="u20119_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20120" class="ax_default">
+          <img id="u20120_img" class="img " src="images/主播管理/u16606.png"/>
+          <div id="u20120_text" class="text ">
+            <p><span>稀有</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20121" class="ax_default">
+          <img id="u20121_img" class="img " src="images/预约抽签-管理后台/u20121.png"/>
+          <div id="u20121_text" class="text ">
+            <p><span>多媒体文件</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20122" class="ax_default">
+          <img id="u20122_img" class="img " src="images/主播管理/u16606.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20123" class="ax_default">
+          <img id="u20123_img" class="img " src="images/发布nft/u1827.png"/>
+          <div id="u20123_text" class="text ">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20124" class="ax_default">
+          <img id="u20124_img" class="img " src="images/主播管理/u16606.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20125" class="ax_default">
+          <img id="u20125_img" class="img " src="images/主播管理/u16606.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20126" class="ax_default">
+          <img id="u20126_img" class="img " src="images/预约抽签-管理后台/u20126.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20127" class="ax_default">
+          <img id="u20127_img" class="img " src="images/机构管理/u2298.png"/>
+          <div id="u20127_text" class="text ">
+            <p><span>nft2021101000200056</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20128" class="ax_default">
+          <img id="u20128_img" class="img " src="images/合成奖励/u10687.png"/>
+          <div id="u20128_text" class="text ">
+            <p><span>安踏001</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20129" class="ax_default">
+          <img id="u20129_img" class="img " src="images/预约抽签-管理后台/u20129.png"/>
+          <div id="u20129_text" class="text ">
+            <p><span>安踏</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20130" class="ax_default">
+          <img id="u20130_img" class="img " src="images/订单管理/u2895.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20131" class="ax_default">
+          <img id="u20131_img" class="img " src="images/订单管理/u2895.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20132" class="ax_default">
+          <img id="u20132_img" class="img " src="images/订单管理/u2895.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20133" class="ax_default">
+          <img id="u20133_img" class="img " src="images/预约抽签-管理后台/u20133.png"/>
+          <div id="u20133_text" class="text ">
+            <p><span>这里是文字描述，</span></p><p><span>多行文本自动换行...</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20134" class="ax_default">
+          <img id="u20134_img" class="img " src="images/发布nft/u1847.png"/>
+          <div id="u20134_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20135" class="ax_default">
+          <img id="u20135_img" class="img " src="images/主播管理/u16619.png"/>
+          <div id="u20135_text" class="text ">
+            <p><span>稀有</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20136" class="ax_default">
+          <img id="u20136_img" class="img " src="images/预约抽签-管理后台/u20136.png"/>
+          <div id="u20136_text" class="text ">
+            <p><span>主图</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20137" class="ax_default">
+          <img id="u20137_img" class="img " src="images/主播管理/u16619.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20138" class="ax_default">
+          <img id="u20138_img" class="img " src="images/发布nft/u1847.png"/>
+          <div id="u20138_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20139" class="ax_default">
+          <img id="u20139_img" class="img " src="images/主播管理/u16619.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20140" class="ax_default">
+          <img id="u20140_img" class="img " src="images/主播管理/u16619.png"/>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u20141" class="ax_default">
+          <img id="u20141_img" class="img " src="images/预约抽签-管理后台/u20141.png"/>
+        </div>
+      </div>
+
+      <!-- 筛选框 (组 合) -->
+      <div id="u20142" class="ax_default" data-label="筛选框" data-left="228" data-top="95" data-width="1553" data-height="30">
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20143" class="ax_default" data-left="889" data-top="95" data-width="100" data-height="30">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20144" class="ax_default box_1">
+            <div id="u20144_div" class=""></div>
+            <div id="u20144_text" class="text ">
+              <p><span>&nbsp;&nbsp; 搜索</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (形状) -->
+          <div id="u20145" class="ax_default icon">
+            <img id="u20145_img" class="img " src="images/品牌管理/u1283.png"/>
+          </div>
+        </div>
+
+        <!-- 刷新 (组 合) -->
+        <div id="u20146" class="ax_default" data-label="刷新" data-left="1037" data-top="95" data-width="100" data-height="30">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20147" class="ax_default box_1">
+            <div id="u20147_div" class=""></div>
+            <div id="u20147_text" class="text ">
+              <p><span>&nbsp;&nbsp; 刷新</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (形状) -->
+          <div id="u20148" class="ax_default icon">
+            <img id="u20148_img" class="img " src="images/品牌管理/u1286.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (文本框) -->
+        <div id="u20149" class="ax_default text_field">
+          <input id="u20149_input" type="text" value=""/>
+        </div>
+
+        <!-- Unnamed (下拉列表框) -->
+        <div id="u20150" class="ax_default droplist">
+          <select id="u20150_input">
+            <option selected value="全部状态">全部状态</option>
+            <option value="上架">上架</option>
+            <option value="下架">下架</option>
+          </select>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20151" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20152" class="ax_default box_1">
+            <div id="u20152_div" class=""></div>
+            <div id="u20152_text" class="text ">
+              <p><span>删除</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20153" class="ax_default" data-left="1701" data-top="95" data-width="80" data-height="30">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20154" class="ax_default box_1">
+            <div id="u20154_div" class=""></div>
+            <div id="u20154_text" class="text ">
+              <p style="font-size:14px;"><span style="font-size:16px;">+</span><span> 添加</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (下拉列表框) -->
+        <div id="u20155" class="ax_default droplist">
+          <select id="u20155_input">
+            <option selected value="全部品牌">全部品牌</option>
+            <option value="李宁">李宁</option>
+            <option value="安踏">安踏</option>
+          </select>
+        </div>
+
+        <!-- Unnamed (下拉列表框) -->
+        <div id="u20156" class="ax_default droplist">
+          <select id="u20156_input">
+            <option selected value="全部稀有度">全部稀有度</option>
+            <option value="稀有">稀有</option>
+            <option value="普通">普通</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20157" class="ax_default box_1">
+        <div id="u20157_div" class=""></div>
+        <div id="u20157_text" class="text ">
+          <p><span>详情</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20158" class="ax_default box_1">
+        <div id="u20158_div" class=""></div>
+        <div id="u20158_text" class="text ">
+          <p><span>下架</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20159" class="ax_default box_1">
+        <div id="u20159_div" class=""></div>
+        <div id="u20159_text" class="text ">
+          <p><span>修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u20160" class="ax_default line">
+        <img id="u20160_img" class="img " src="images/品牌管理/u1299.png"/>
+      </div>
+
+      <!-- 商户列表 (矩形) -->
+      <div id="u20161" class="ax_default box_2 selected" data-label="商户列表" selectiongroup="类目操作">
+        <div id="u20161_div" class="selected"></div>
+        <div id="u20161_text" class="text ">
+          <p><span>NFT主题</span></p>
+        </div>
+      </div>
+
+      <!-- 新增/修改 (矩形) -->
+      <div id="u20162" class="ax_default box_2 ax_default_hidden selected" data-label="新增/修改" selectiongroup="类目操作" style="display:none; visibility: hidden">
+        <div id="u20162_div" class="selected"></div>
+        <div id="u20162_text" class="text ">
+          <p><span>商户列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u20163" class="ax_default line">
+        <img id="u20163_img" class="img " src="images/品牌管理/u1302.png"/>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u20164" class="ax_default _图片">
+        <img id="u20164_img" class="img " src="images/品牌管理/u1330.png"/>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u20165" class="ax_default _图片">
+        <img id="u20165_img" class="img " src="images/品牌管理/u1330.png"/>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u20166" class="ax_default" data-left="817" data-top="177" data-width="67" data-height="38">
+
+        <!-- Unnamed (图片) -->
+        <div id="u20167" class="ax_default _图片">
+          <img id="u20167_img" class="img " src="images/品牌管理/u1330.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20168" class="ax_default box_2">
+          <div id="u20168_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u20169" class="ax_default icon">
+          <img id="u20169_img" class="img " src="images/主题管理/u1566.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (组 合) -->
+      <div id="u20170" class="ax_default" data-left="817" data-top="235" data-width="67" data-height="38">
+
+        <!-- Unnamed (图片) -->
+        <div id="u20171" class="ax_default _图片">
+          <img id="u20171_img" class="img " src="images/品牌管理/u1330.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20172" class="ax_default box_2">
+          <div id="u20172_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (形状) -->
+        <div id="u20173" class="ax_default icon">
+          <img id="u20173_img" class="img " src="images/主题管理/u1566.png"/>
+        </div>
+      </div>
+
+      <!-- 添加弹窗 (组 合) -->
+      <div id="u20174" class="ax_default" data-label="添加弹窗" data-left="315" data-top="295" data-width="524" data-height="671">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20175" class="ax_default box_1">
+          <div id="u20175_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20176" class="ax_default box_1">
+          <div id="u20176_div" class=""></div>
+          <div id="u20176_text" class="text ">
+            <p><span>添加主题</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20177" class="ax_default box_1">
+          <div id="u20177_div" class=""></div>
+          <div id="u20177_text" class="text ">
+            <p><span>×</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20178" class="ax_default" data-left="360" data-top="382" data-width="298" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20179" class="ax_default box_1">
+            <div id="u20179_div" class=""></div>
+            <div id="u20179_text" class="text ">
+              <p><span>所属品牌：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20180" class="ax_default box_1">
+            <div id="u20180_div" class=""></div>
+          </div>
+
+          <!-- search (形状) -->
+          <div id="u20181" class="ax_default shape" data-label="search">
+            <img id="u20181_img" class="img " src="images/主题管理/search_u1578.png"/>
+          </div>
+
+          <!-- Unnamed (下拉列表框) -->
+          <div id="u20182" class="ax_default droplist">
+            <select id="u20182_input">
+              <option value=" ">&nbsp;</option>
+              <option value="李宁">李宁</option>
+              <option value="安踏">安踏</option>
+              <option value="LV">LV</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20183" class="ax_default box_1">
+          <div id="u20183_div" class=""></div>
+          <div id="u20183_text" class="text ">
+            <p><span>保存</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20184" class="ax_default" data-left="351" data-top="783" data-width="314" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20185" class="ax_default box_1">
+            <div id="u20185_div" class=""></div>
+            <div id="u20185_text" class="text ">
+              <p><span>入口展示类型：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20186" class="ax_default radio_button">
+            <label for="u20186_input" style="position: absolute; left: 0px;">
+              <div id="u20186_text" class="text ">
+                <p><span>主图</span></p>
+              </div>
+            </label>
+            <input id="u20186_input" type="radio" value="radio" name="u20186" checked/>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20187" class="ax_default radio_button">
+            <label for="u20187_input" style="position: absolute; left: 0px;">
+              <div id="u20187_text" class="text ">
+                <p><span>多媒体文件</span></p>
+              </div>
+            </label>
+            <input id="u20187_input" type="radio" value="radio" name="u20187"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20188" class="ax_default" data-left="360" data-top="484" data-width="436" data-height="55">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20189" class="ax_default box_1">
+            <div id="u20189_div" class=""></div>
+            <div id="u20189_text" class="text ">
+              <p><span>主图：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u20190" class="ax_default _图片">
+            <img id="u20190_img" class="img " src="images/品牌管理/u1321.png"/>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u20191" class="ax_default _图片">
+            <img id="u20191_img" class="img " src="images/品牌管理/u1322.png"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20192" class="ax_default box_1">
+            <div id="u20192_div" class=""></div>
+            <div id="u20192_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20193" class="ax_default box_1">
+            <div id="u20193_div" class=""></div>
+            <div id="u20193_text" class="text ">
+              <p><span>删除</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20194" class="ax_default" data-left="360" data-top="619" data-width="404" data-height="52">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20195" class="ax_default box_1">
+            <div id="u20195_div" class=""></div>
+            <div id="u20195_text" class="text ">
+              <p><span>主题描述：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20196" class="ax_default box_1">
+            <div id="u20196_div" class=""></div>
+            <div id="u20196_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (多行文本框) -->
+          <div id="u20197" class="ax_default text_area">
+            <textarea id="u20197_input"></textarea>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20198" class="ax_default" data-left="360" data-top="348" data-width="298" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20199" class="ax_default box_1">
+            <div id="u20199_div" class=""></div>
+            <div id="u20199_text" class="text ">
+              <p><span>主题名称：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (文本框) -->
+          <div id="u20200" class="ax_default text_field">
+            <input id="u20200_input" type="text" value=""/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20201" class="ax_default box_1">
+            <div id="u20201_div" class=""></div>
+            <div id="u20201_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20202" class="ax_default" data-left="360" data-top="552" data-width="207" data-height="55">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20203" class="ax_default box_1">
+            <div id="u20203_div" class=""></div>
+            <div id="u20203_text" class="text ">
+              <p><span>媒体文件：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u20204" class="ax_default _图片">
+            <img id="u20204_img" class="img " src="images/品牌管理/u1321.png"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20205" class="ax_default box_1">
+            <div id="u20205_div" class=""></div>
+            <div id="u20205_text" class="text ">
+              <p><span>删除</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20206" class="ax_default" data-left="361" data-top="748" data-width="280" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20207" class="ax_default box_1">
+            <div id="u20207_div" class=""></div>
+            <div id="u20207_text" class="text ">
+              <p><span>稀有度：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20208" class="ax_default radio_button">
+            <label for="u20208_input" style="position: absolute; left: 0px;">
+              <div id="u20208_text" class="text ">
+                <p><span>普通</span></p>
+              </div>
+            </label>
+            <input id="u20208_input" type="radio" value="radio" name="u20208"/>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20209" class="ax_default radio_button">
+            <label for="u20209_input" style="position: absolute; left: 0px;">
+              <div id="u20209_text" class="text ">
+                <p><span>稀有</span></p>
+              </div>
+            </label>
+            <input id="u20209_input" type="radio" value="radio" name="u20209" checked/>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20210" class="ax_default" data-left="360" data-top="684" data-width="404" data-height="52">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20211" class="ax_default box_1">
+            <div id="u20211_div" class=""></div>
+            <div id="u20211_text" class="text ">
+              <p><span>预约方式：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20212" class="ax_default box_1">
+            <div id="u20212_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (多行文本框) -->
+          <div id="u20213" class="ax_default text_area">
+            <textarea id="u20213_input"></textarea>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20214" class="ax_default" data-left="351" data-top="852" data-width="314" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20215" class="ax_default box_1">
+            <div id="u20215_div" class=""></div>
+            <div id="u20215_text" class="text ">
+              <p><span>预约抽签：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20216" class="ax_default radio_button">
+            <label for="u20216_input" style="position: absolute; left: 0px;">
+              <div id="u20216_text" class="text ">
+                <p><span>开启</span></p>
+              </div>
+            </label>
+            <input id="u20216_input" type="radio" value="radio" name="u20216"/>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20217" class="ax_default radio_button">
+            <label for="u20217_input" style="position: absolute; left: 0px;">
+              <div id="u20217_text" class="text ">
+                <p><span>关闭</span></p>
+              </div>
+            </label>
+            <input id="u20217_input" type="radio" value="radio" name="u20217" checked/>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20218" class="ax_default" data-left="360" data-top="417" data-width="436" data-height="55">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20219" class="ax_default box_1">
+            <div id="u20219_div" class=""></div>
+            <div id="u20219_text" class="text ">
+              <p><span>封面图：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u20220" class="ax_default _图片">
+            <img id="u20220_img" class="img " src="images/品牌管理/u1321.png"/>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u20221" class="ax_default _图片">
+            <img id="u20221_img" class="img " src="images/品牌管理/u1322.png"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20222" class="ax_default box_1">
+            <div id="u20222_div" class=""></div>
+            <div id="u20222_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20223" class="ax_default box_1">
+            <div id="u20223_div" class=""></div>
+            <div id="u20223_text" class="text ">
+              <p><span>删除</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20224" class="ax_default" data-left="351" data-top="886" data-width="314" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20225" class="ax_default box_1">
+            <div id="u20225_div" class=""></div>
+            <div id="u20225_text" class="text ">
+              <p><span>状态：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20226" class="ax_default radio_button">
+            <label for="u20226_input" style="position: absolute; left: 0px;">
+              <div id="u20226_text" class="text ">
+                <p><span>上架</span></p>
+              </div>
+            </label>
+            <input id="u20226_input" type="radio" value="radio" name="u20226"/>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20227" class="ax_default radio_button">
+            <label for="u20227_input" style="position: absolute; left: 0px;">
+              <div id="u20227_text" class="text ">
+                <p><span>下架</span></p>
+              </div>
+            </label>
+            <input id="u20227_input" type="radio" value="radio" name="u20227" checked/>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20228" class="ax_default" data-left="351" data-top="817" data-width="314" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20229" class="ax_default box_1">
+            <div id="u20229_div" class=""></div>
+            <div id="u20229_text" class="text ">
+              <p><span>是否限购：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20230" class="ax_default radio_button">
+            <label for="u20230_input" style="position: absolute; left: 0px;">
+              <div id="u20230_text" class="text ">
+                <p><span>限购</span></p>
+              </div>
+            </label>
+            <input id="u20230_input" type="radio" value="radio" name="u20230"/>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20231" class="ax_default radio_button">
+            <label for="u20231_input" style="position: absolute; left: 0px;">
+              <div id="u20231_text" class="text ">
+                <p><span>不限购</span></p>
+              </div>
+            </label>
+            <input id="u20231_input" type="radio" value="radio" name="u20231" checked/>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20232" class="ax_default box_1">
+        <div id="u20232_div" class=""></div>
+        <div id="u20232_text" class="text ">
+          <p><span>上架</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20233" class="ax_default box_1">
+        <div id="u20233_div" class=""></div>
+        <div id="u20233_text" class="text ">
+          <p><span>详情</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u20234" class="ax_default _图片">
+        <img id="u20234_img" class="img " src="images/品牌管理/u1330.png"/>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u20235" class="ax_default _图片">
+        <img id="u20235_img" class="img " src="images/品牌管理/u1330.png"/>
+      </div>
+
+      <!-- 添加弹窗 (组 合) -->
+      <div id="u20236" class="ax_default" data-label="添加弹窗" data-left="945" data-top="295" data-width="524" data-height="795">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20237" class="ax_default box_1">
+          <div id="u20237_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20238" class="ax_default box_1">
+          <img id="u20238_img" class="img " src="images/预约抽签-管理后台/u20238.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20239" class="ax_default box_1">
+          <img id="u20239_img" class="img " src="images/预约抽签-管理后台/u20239.png"/>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20240" class="ax_default box_1">
+          <div id="u20240_div" class=""></div>
+          <div id="u20240_text" class="text ">
+            <p><span>添加主题</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20241" class="ax_default box_1">
+          <div id="u20241_div" class=""></div>
+          <div id="u20241_text" class="text ">
+            <p><span>×</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20242" class="ax_default" data-left="990" data-top="382" data-width="298" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20243" class="ax_default box_1">
+            <div id="u20243_div" class=""></div>
+            <div id="u20243_text" class="text ">
+              <p><span>所属品牌：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20244" class="ax_default box_1">
+            <div id="u20244_div" class=""></div>
+          </div>
+
+          <!-- search (形状) -->
+          <div id="u20245" class="ax_default shape" data-label="search">
+            <img id="u20245_img" class="img " src="images/主题管理/search_u1578.png"/>
+          </div>
+
+          <!-- Unnamed (下拉列表框) -->
+          <div id="u20246" class="ax_default droplist">
+            <select id="u20246_input">
+              <option value=" ">&nbsp;</option>
+              <option value="李宁">李宁</option>
+              <option value="安踏">安踏</option>
+              <option value="LV">LV</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u20247" class="ax_default box_1">
+          <div id="u20247_div" class=""></div>
+          <div id="u20247_text" class="text ">
+            <p><span>保存</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20248" class="ax_default" data-left="981" data-top="778" data-width="314" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20249" class="ax_default box_1">
+            <div id="u20249_div" class=""></div>
+            <div id="u20249_text" class="text ">
+              <p><span>入口展示类型：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20250" class="ax_default radio_button">
+            <label for="u20250_input" style="position: absolute; left: 0px;">
+              <div id="u20250_text" class="text ">
+                <p><span>主图</span></p>
+              </div>
+            </label>
+            <input id="u20250_input" type="radio" value="radio" name="u20250" checked/>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20251" class="ax_default radio_button">
+            <label for="u20251_input" style="position: absolute; left: 0px;">
+              <div id="u20251_text" class="text ">
+                <p><span>多媒体文件</span></p>
+              </div>
+            </label>
+            <input id="u20251_input" type="radio" value="radio" name="u20251"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20252" class="ax_default" data-left="990" data-top="483" data-width="436" data-height="55">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20253" class="ax_default box_1">
+            <div id="u20253_div" class=""></div>
+            <div id="u20253_text" class="text ">
+              <p><span>主图：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u20254" class="ax_default _图片">
+            <img id="u20254_img" class="img " src="images/品牌管理/u1321.png"/>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u20255" class="ax_default _图片">
+            <img id="u20255_img" class="img " src="images/品牌管理/u1322.png"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20256" class="ax_default box_1">
+            <div id="u20256_div" class=""></div>
+            <div id="u20256_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20257" class="ax_default box_1">
+            <div id="u20257_div" class=""></div>
+            <div id="u20257_text" class="text ">
+              <p><span>删除</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20258" class="ax_default" data-left="990" data-top="616" data-width="404" data-height="52">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20259" class="ax_default box_1">
+            <div id="u20259_div" class=""></div>
+            <div id="u20259_text" class="text ">
+              <p><span>主题描述：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20260" class="ax_default box_1">
+            <div id="u20260_div" class=""></div>
+            <div id="u20260_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (多行文本框) -->
+          <div id="u20261" class="ax_default text_area">
+            <textarea id="u20261_input"></textarea>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20262" class="ax_default" data-left="990" data-top="348" data-width="298" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20263" class="ax_default box_1">
+            <div id="u20263_div" class=""></div>
+            <div id="u20263_text" class="text ">
+              <p><span>主题名称：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (文本框) -->
+          <div id="u20264" class="ax_default text_field">
+            <input id="u20264_input" type="text" value=""/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20265" class="ax_default box_1">
+            <div id="u20265_div" class=""></div>
+            <div id="u20265_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20266" class="ax_default" data-left="990" data-top="549" data-width="207" data-height="55">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20267" class="ax_default box_1">
+            <div id="u20267_div" class=""></div>
+            <div id="u20267_text" class="text ">
+              <p><span>媒体文件：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u20268" class="ax_default _图片">
+            <img id="u20268_img" class="img " src="images/品牌管理/u1321.png"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20269" class="ax_default box_1">
+            <div id="u20269_div" class=""></div>
+            <div id="u20269_text" class="text ">
+              <p><span>删除</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20270" class="ax_default" data-left="991" data-top="744" data-width="280" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20271" class="ax_default box_1">
+            <div id="u20271_div" class=""></div>
+            <div id="u20271_text" class="text ">
+              <p><span>稀有度：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20272" class="ax_default radio_button">
+            <label for="u20272_input" style="position: absolute; left: 0px;">
+              <div id="u20272_text" class="text ">
+                <p><span>普通</span></p>
+              </div>
+            </label>
+            <input id="u20272_input" type="radio" value="radio" name="u20272"/>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20273" class="ax_default radio_button">
+            <label for="u20273_input" style="position: absolute; left: 0px;">
+              <div id="u20273_text" class="text ">
+                <p><span>稀有</span></p>
+              </div>
+            </label>
+            <input id="u20273_input" type="radio" value="radio" name="u20273" checked/>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20274" class="ax_default" data-left="990" data-top="680" data-width="404" data-height="52">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20275" class="ax_default box_1">
+            <div id="u20275_div" class=""></div>
+            <div id="u20275_text" class="text ">
+              <p><span>预约方式：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20276" class="ax_default box_1">
+            <div id="u20276_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (多行文本框) -->
+          <div id="u20277" class="ax_default text_area">
+            <textarea id="u20277_input"></textarea>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20278" class="ax_default" data-left="981" data-top="880" data-width="314" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20279" class="ax_default box_1">
+            <div id="u20279_div" class=""></div>
+            <div id="u20279_text" class="text ">
+              <p><span>预约抽签：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20280" class="ax_default radio_button">
+            <label for="u20280_input" style="position: absolute; left: 0px;">
+              <div id="u20280_text" class="text ">
+                <p><span>开启</span></p>
+              </div>
+            </label>
+            <input id="u20280_input" type="radio" value="radio" name="u20280" checked/>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20281" class="ax_default radio_button">
+            <label for="u20281_input" style="position: absolute; left: 0px;">
+              <div id="u20281_text" class="text ">
+                <p><span>关闭</span></p>
+              </div>
+            </label>
+            <input id="u20281_input" type="radio" value="radio" name="u20281"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20282" class="ax_default" data-left="990" data-top="416" data-width="436" data-height="55">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20283" class="ax_default box_1">
+            <div id="u20283_div" class=""></div>
+            <div id="u20283_text" class="text ">
+              <p><span>封面图：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u20284" class="ax_default _图片">
+            <img id="u20284_img" class="img " src="images/品牌管理/u1321.png"/>
+          </div>
+
+          <!-- Unnamed (图片) -->
+          <div id="u20285" class="ax_default _图片">
+            <img id="u20285_img" class="img " src="images/品牌管理/u1322.png"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20286" class="ax_default box_1">
+            <div id="u20286_div" class=""></div>
+            <div id="u20286_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20287" class="ax_default box_1">
+            <div id="u20287_div" class=""></div>
+            <div id="u20287_text" class="text ">
+              <p><span>删除</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20288" class="ax_default" data-left="969" data-top="1015" data-width="314" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20289" class="ax_default box_1">
+            <div id="u20289_div" class=""></div>
+            <div id="u20289_text" class="text ">
+              <p><span>状态：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20290" class="ax_default radio_button">
+            <label for="u20290_input" style="position: absolute; left: 0px;">
+              <div id="u20290_text" class="text ">
+                <p><span>上架</span></p>
+              </div>
+            </label>
+            <input id="u20290_input" type="radio" value="radio" name="u20290"/>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20291" class="ax_default radio_button">
+            <label for="u20291_input" style="position: absolute; left: 0px;">
+              <div id="u20291_text" class="text ">
+                <p><span>下架</span></p>
+              </div>
+            </label>
+            <input id="u20291_input" type="radio" value="radio" name="u20291" checked/>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20292" class="ax_default" data-left="964" data-top="913" data-width="300" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20293" class="ax_default box_1">
+            <div id="u20293_div" class=""></div>
+            <div id="u20293_text" class="text ">
+              <p><span>报名开始时间：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (文本框) -->
+          <div id="u20294" class="ax_default text_field">
+            <input id="u20294_input" type="time" value="2021/10/10 12:00"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20295" class="ax_default box_1">
+            <div id="u20295_div" class=""></div>
+            <div id="u20295_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20296" class="ax_default" data-left="964" data-top="947" data-width="300" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20297" class="ax_default box_1">
+            <div id="u20297_div" class=""></div>
+            <div id="u20297_text" class="text ">
+              <p><span>抽签时间：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (文本框) -->
+          <div id="u20298" class="ax_default text_field">
+            <input id="u20298_input" type="time" value="2021/10/10 12:00"/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20299" class="ax_default box_1">
+            <div id="u20299_div" class=""></div>
+            <div id="u20299_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20300" class="ax_default" data-left="964" data-top="981" data-width="300" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20301" class="ax_default box_1">
+            <div id="u20301_div" class=""></div>
+            <div id="u20301_text" class="text ">
+              <p><span>中签总数：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (文本框) -->
+          <div id="u20302" class="ax_default text_field">
+            <input id="u20302_input" type="text" value=""/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20303" class="ax_default box_1">
+            <div id="u20303_div" class=""></div>
+            <div id="u20303_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20304" class="ax_default" data-left="983" data-top="812" data-width="314" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20305" class="ax_default box_1">
+            <div id="u20305_div" class=""></div>
+            <div id="u20305_text" class="text ">
+              <p><span>是否限购：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20306" class="ax_default radio_button">
+            <label for="u20306_input" style="position: absolute; left: 0px;">
+              <div id="u20306_text" class="text ">
+                <p><span>限购</span></p>
+              </div>
+            </label>
+            <input id="u20306_input" type="radio" value="radio" name="u20306" checked/>
+          </div>
+
+          <!-- Unnamed (单选按钮) -->
+          <div id="u20307" class="ax_default radio_button">
+            <label for="u20307_input" style="position: absolute; left: 0px;">
+              <div id="u20307_text" class="text ">
+                <p><span>不限购</span></p>
+              </div>
+            </label>
+            <input id="u20307_input" type="radio" value="radio" name="u20307"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (组 合) -->
+        <div id="u20308" class="ax_default" data-left="967" data-top="846" data-width="319" data-height="22">
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20309" class="ax_default box_1">
+            <div id="u20309_div" class=""></div>
+            <div id="u20309_text" class="text ">
+              <p><span>限购数量：</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (文本框) -->
+          <div id="u20310" class="ax_default text_field">
+            <input id="u20310_input" type="text" value=""/>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20311" class="ax_default box_1">
+            <div id="u20311_div" class=""></div>
+            <div id="u20311_text" class="text ">
+              <p><span>*</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u20312" class="ax_default box_1">
+            <div id="u20312_div" class=""></div>
+            <div id="u20312_text" class="text ">
+              <p><span>个 / 每用户</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u20313" class="ax_default connector">
+        <img id="u20313_seg0" class="img " src="images/预约抽签-管理后台/u20313_seg0.png" alt="u20313_seg0"/>
+        <img id="u20313_seg1" class="img " src="images/预约抽签-管理后台/u20313_seg1.png" alt="u20313_seg1"/>
+        <img id="u20313_seg2" class="img " src="images/预约抽签-管理后台/u20313_seg2.png" alt="u20313_seg2"/>
+        <img id="u20313_seg3" class="img " src="images/预约抽签-管理后台/u20313_seg3.png" alt="u20313_seg3"/>
+        <img id="u20313_seg4" class="img " src="images/购买流程/u288_seg4.png" alt="u20313_seg4"/>
+        <div id="u20313_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20314" class="ax_default box_1">
+        <div id="u20314_div" class=""></div>
+        <div id="u20314_text" class="text ">
+          <p><span>开启</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20315" class="ax_default box_1">
+        <div id="u20315_div" class=""></div>
+        <div id="u20315_text" class="text ">
+          <p><span>关闭</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20316" class="ax_default box_1">
+        <div id="u20316_div" class=""></div>
+        <div id="u20316_text" class="text ">
+          <p><span>上架</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20317" class="ax_default box_1">
+        <div id="u20317_div" class=""></div>
+        <div id="u20317_text" class="text ">
+          <p><span>下架</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u20318" class="ax_default connector">
+        <img id="u20318_seg0" class="img " src="images/预约抽签-管理后台/u20318_seg0.png" alt="u20318_seg0"/>
+        <img id="u20318_seg1" class="img " src="images/预约抽签-管理后台/u20318_seg1.png" alt="u20318_seg1"/>
+        <img id="u20318_seg2" class="img " src="images/预约抽签-管理后台/u20318_seg2.png" alt="u20318_seg2"/>
+        <img id="u20318_seg3" class="img " src="images/预约抽签-管理后台/u20318_seg3.png" alt="u20318_seg3"/>
+        <img id="u20318_seg4" class="img " src="images/购买流程/u288_seg4.png" alt="u20318_seg4"/>
+        <div id="u20318_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20319" class="ax_default box_1">
+        <div id="u20319_div" class=""></div>
+        <div id="u20319_text" class="text ">
+          <p><span>限购</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u20320" class="ax_default box_1">
+        <div id="u20320_div" class=""></div>
+        <div id="u20320_text" class="text ">
+          <p><span>不限购</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
