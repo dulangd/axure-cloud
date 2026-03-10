@@ -4091,3 +4091,44 @@
   width:371px;
   word-wrap:break-word;
 }
+#u1685_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:225px;
+  height:26px;
+  background:inherit;
+  background-color:rgba(40, 152, 236, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'黑体';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+#u1685 {
+  border-width:0px;
+  position:absolute;
+  left:75px;
+  top:93px;
+  width:225px;
+  height:26px;
+  font-family:'黑体';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+#u1685_text {
+  border-width:0px;
+  position:absolute;
+  left:2px;
+  top:4px;
+  width:221px;
+  word-wrap:break-word;
+}
