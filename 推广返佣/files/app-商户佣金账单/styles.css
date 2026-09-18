@@ -8603,31 +8603,23 @@
 #u5258_seg1 {
   border-width:0px;
   position:absolute;
-  left:165px;
-  top:-4px;
-  width:8px;
-  height:15px;
-}
-#u5258_seg2 {
-  border-width:0px;
-  position:absolute;
   left:-7px;
   top:-10px;
   width:21px;
   height:20px;
 }
-#u5258_seg3 {
+#u5258_seg2 {
   border-width:0px;
   position:absolute;
-  left:149px;
-  top:-15px;
+  left:143px;
+  top:-20px;
   width:40px;
   height:40px;
 }
 #u5258_text {
   border-width:0px;
   position:absolute;
-  left:40px;
+  left:34px;
   top:-8px;
   width:100px;
   visibility:hidden;
